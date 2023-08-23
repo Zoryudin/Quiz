@@ -79,7 +79,7 @@ let questions = [
   },
     {
     numb: 8,
-    question: "(11 + 2 )",
+    question: "(11 + 2 =... )",
     answer: "13",
     options: [
       "14",
