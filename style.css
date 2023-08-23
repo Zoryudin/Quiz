@@ -9,14 +9,25 @@
 
 body{
     /* background: #007bff; */
-    background-image: url("asset/5927911.gif");
+    background-image: url("../asset/5927911.gif");
     background-repeat: no-repeat;
     background-size: 250vw 100vh;
 }
 
-@media only screen and (min-width: 600px) {
+@media (min-width: 600px) {
     body{
       background-size: 100vw 100vh;
+    }
+
+    
+}
+@media only screen and (max-width: 992px) {
+    .info_box.activeInfo{
+        width: 90%;
+    }
+
+    .quiz_box.activeQuiz{
+        width: 90%;
     }
 }
 
@@ -96,7 +107,7 @@ h1{
 }
 
 .info_box{
-    width: 540px;
+    width: 30%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -154,7 +165,7 @@ h1{
 }
 
 .quiz_box{
-    width: 550px;
+    width: 30%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
